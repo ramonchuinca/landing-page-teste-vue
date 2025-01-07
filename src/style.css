@@ -1,24 +1,52 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
   background-image: url(/assets/imagem-fundo.jpg);
   color: rgb(224, 217, 217);
 }
 
-
-#app{
+#app {
   /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   font-weight: normal;
+  cursor: pointer;
 }
 
-header{
+header {
+  position: relative;
   font-size: 2em;
   color: white;
-  margin-bottom:20px;
   background-color: green;
   font-weight: bold;
-  padding: 10px;
   text-align: center;
+}
+
+.video-you {
+  position: relative;
+  top: 10vh;
+  border: 15px solid greenyellow;
+  z-index: 1;
+  width: 40%;
+  height: 50vh;
+  /* display: flex; */
+}
+
+.fundo-escuro {
+  display: flex;
+  position: relative;
+  background-color: hsla(0, 0%, 0%, 0.8); /* Preto com 50% de transparência */
+  /* max-width: 700px; */
+  width: 50%;
+  left: 25%;
+  height: 70vh;
+  top: -200vh;
+}
+
+.texto-fake{
+display: flex;
+position: relative;
+top: 40%;
+font-size: 1.8em;
+text-align: center;
 }

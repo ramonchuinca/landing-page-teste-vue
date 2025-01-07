@@ -37,6 +37,7 @@
     padding: 20px;
     gap: 30px; /* Espaçamento entre as imagens */
     background-color: hsla(0, 0%, 0%, 0.8); /* Preto com 50% de transparência */
+    border: 2px solid green;
 
   }
   
