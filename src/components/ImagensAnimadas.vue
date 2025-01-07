@@ -1,6 +1,6 @@
 <template>
     <section class="nova-imagem-detran" data-section="section">
-      <div class="imagem-posicionada imagem-esquerda" data-aos="fade-right">
+      <div class="imagem-posicionada imagem-esquerda" data-aos="zoom-in-down">
         <img
           class="imagem-texto-1"
           src="/assets/imagenanimada1.webp"
@@ -8,7 +8,7 @@
         />
       </div>
   
-      <div class="imagem-posicionada imagem-direita" data-aos="fade-left">
+      <div class="imagem-posicionada imagem-direita" data-aos="zoom-in-left">
         <img
           class="imagem-texto-2"
           src="/assets/imagensanimada2.jpg"

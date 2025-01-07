@@ -5,12 +5,18 @@ body {
   color: rgb(224, 217, 217);
 }
 
+
+
 #app {
   /* max-width: 1280px; */
   margin: 0 auto;
   padding: 1rem;
   font-weight: normal;
   cursor: pointer;
+  max-height: 100vh; /* Limita a altura a 300px */
+  border: 1px solid #ccc;
+  padding: 10px;
+
 }
 
 header {
